@@ -50,4 +50,7 @@ int main() {
 	//Closing the sessions after they are finished
 	MFXClose(SWsession);
 	MFXClose(HWsession);
+	
+	getchar();
+	return 0;
 }
